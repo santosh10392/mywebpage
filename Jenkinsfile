@@ -17,12 +17,5 @@ pipeline {
                 sh 'mvn clean install'
             }
         }
-
-        stage('Test') {
-            steps {
-                // Run tests (customize this based on your testing framework)
-                sh 'mvn test'
-            }
-        }
     }
 }
