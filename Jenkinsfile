@@ -7,6 +7,7 @@ pipeline {
             steps {
                 // Checkout the code from your version control system (e.g., Git)
                 git 'https://github.com/santosh10392/mywebpage.git'
+                branch: 'main'
             }
         }
 
