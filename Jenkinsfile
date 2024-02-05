@@ -1,13 +1,11 @@
-test
 pipeline {
     agent any
-
     stages {
         stage('Checkout') {
             steps {
                 // Checkout the code from your version control system (e.g., Git)
-                git 'https://github.com/santosh10392/mywebpage.git'
-                branch: 'main'
+                git branch: 'main', 'https://github.com/santosh10392/mywebpage.git'
+                
             }
         }
 
