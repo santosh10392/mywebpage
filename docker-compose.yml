@@ -2,5 +2,5 @@ version: "3.3"
 services:
   web:
     build: nnksantosh/my-webpage:latest
-    port:
+    ports:
       - "80:80"
